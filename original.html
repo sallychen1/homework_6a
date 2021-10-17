@@ -23,7 +23,12 @@
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="products.html">Products</a>
-            <a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
+            <a href="cart.html" id="cart">
+                <span id="cart" class="fa-stack fa-lg">
+                <i class="fa fa-shopping-cart fa-stack-2x"></i>
+                <strong id = "num-items" class="fa fa-stack-1x">0</strong>
+            </span>
+            </a>
         </div>
     </nav>
     <!-- Product Descriptions -->
@@ -38,10 +43,10 @@
                 <label for="qty-select">Qty:</label>
                 <select name="qty" id="qty-select" onchange="changePrice()">
                     <option value="">--</option>
-                    <option value=4.99>1 pc</option>
-                    <option value=14.97>3 pcs</option>
-                    <option value=29.94>6 pcs</option>
-                    <option value=59.88>12 pcs</option>
+                    <option value=1>1 pc</option>
+                    <option value=3>3 pcs</option>
+                    <option value=6>6 pcs</option>
+                    <option value=12>12 pcs</option>
                 </select>
                 <label for="glaze-select">Glaze:</label>
                 <select name="glaze" id="glaze-select">
