@@ -23,17 +23,32 @@
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="products.html">Products</a>
-            <a href="cart.html" id="cart">
+            <a href="cart.html" class="cart-wrapper">
                 <span id="cart" class="fa-stack fa-lg">
                 <i class="fa fa-shopping-cart fa-stack-2x"></i>
-                <strong id = "num-items" class="fa fa-stack-1x">0</strong>
-            </span>
+                <strong id = "cart-numitems" class="fa fa-stack-1x">0</strong>
+                </span>
             </a>
         </div>
     </nav>
-    <!-- About page body content -->
+    <!-- Cart page body content -->
     <div class="cart-header">
         <h1>Cart</h1>
+    </div>
+
+    <div class="cart-wrapper">
+        <div class="cart-msg">
+            <p>Oh no! Cart is empty :(</p>
+        </div>
+
+        <div class="cart-total">
+            <p>Total: <span>$10</span></p>
+        </div>
+
+        <div class="cart-bottom">
+            <a href="products.html"><button id = "keep-shopping-btn">Keep Shopping</button></a>
+            <button id="checkout-btn">Checkout</button>
+        </div>
     </div>
 
 </body>

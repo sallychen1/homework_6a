@@ -38,12 +38,16 @@ h1 {
     padding: 5px;
 }
 
+.cart-wrapper {
+    font-size: 2.2vw;
+}
+
 #cart {
     font-size: 2.2vw;
     color: #7C3F2C;
 }
 
-#num-items {
+#cart-numitems {
     font-size: 1.5vw;
     color: white;
 }
@@ -207,6 +211,11 @@ h1 {
     color: white;
 }
 
+.details-info button {
+    text-decoration: none;
+    color: white;
+}
+
 .details-info button:hover {
     cursor: pointer;
     color: black;
@@ -228,6 +237,9 @@ h1 {
     margin-top: 1em;
 }
 
+
+/* Cart Page */
+
 .cart-header {
     background-image: url("assets/about.png");
     background-position: center;
@@ -242,4 +254,53 @@ h1 {
     font-size: 5.5vw;
     margin: 0%;
     padding: 0.5em;
+}
+
+.cart-wrapper {
+    text-align: center;
+    padding: 2em;
+}
+
+.cart-msg {
+    color: gray;
+    font-size: 1em;
+    padding: 2em;
+}
+
+.cart-total {
+    color: black;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.cart-bottom a {
+    text-decoration: none;
+    color: white;
+}
+
+.cart-bottom button:hover {
+    cursor: pointer;
+    color: black;
+}
+
+#checkout-btn {
+    background-color: #7C3F2C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+}
+
+#keep-shopping-btn {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
 }
